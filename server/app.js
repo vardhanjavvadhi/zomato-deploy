@@ -18,7 +18,7 @@ app.use(express.urlencoded({extended:false})); // enable form data
 app.use("/api", AppRouter);
 const PORT = 9040;
 
-const MONGO_DB_URI ="mongodb+srv://vardhanjavvadhi9246:Vardhan7@cluster0.ao7r4zy.mongodb.net/";
+const MONGO_DB_URI ="mongodb+srv://vardhanjavvadhi9246:Vardhan7@cluster0.ao7r4zy.mongodb.net/test";
 mongoose
  .connect(MONGO_DB_URI)
  .then(() => {
